@@ -1,20 +1,38 @@
-# estrutura_projetos_crewai
+# CrewAI Projects
 
-A crewAI project using JSON-first configuration.
+A collection of projects built with [CrewAI](https://www.crewai.com/), an open-source framework for creating AI agents that work together to complete tasks.
 
-## Running
+This repository includes personal experiments, practical applications, and projects I’m exploring as part of my software development journey. It also serves as a portfolio of my work with AI agents and multi-agent systems.
 
-```bash
-crewai run
-```
+## Projects
 
-## Project Structure
+Projects will be added here as they’re developed. Each project’s folder will include its own README with an overview, setup instructions, and usage examples.
 
-- `agents/` - Agent definitions (JSONC)
-- `crew.jsonc` - Crew definition with tasks and configuration
-- `tools/` - Custom tools (Python)
-- `knowledge/` - Knowledge files for agents
+| Project | Description | Status |
+|---|---|---|
+| *More projects coming soon* | | |
 
-> **Note:** `custom:<name>` tool references execute `tools/<name>.py` as local
-> Python code when the crew loads. Only run crew projects from sources you
-> trust.
+## Goals
+
+- Explore how AI agents can collaborate to solve problems.
+- Build practical projects with CrewAI.
+- Experiment with agent roles, tasks, tools, and workflows.
+- Document and share what I learn along the way.
+
+## Getting Started
+
+Choose a project folder and follow the instructions in its README. Setup steps and dependencies may vary from project to project.
+
+## Technologies
+
+- CrewAI
+- Python
+- Generative AI and AI agents
+
+## About
+
+I’m a software engineer interested in backend development, cloud technologies, data, and artificial intelligence. This repository is where I experiment with CrewAI and develop projects that I can share as part of my portfolio.
+
+## Contributions
+
+This repository is primarily for my personal projects and learning. Suggestions and feedback are welcome.
