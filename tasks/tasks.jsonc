@@ -1,0 +1,85 @@
+// {
+//     "tasks":
+//     [
+//         {
+//             // Task identifier
+//             "name": "research_task",
+
+//             // What the task should accomplish
+//             // Use {placeholder} inputs here; crewai run prompts for missing values
+//             "description": "Conduza uma pesquisa aprofundada sobre {topic}. Certifique-se de encontrar informações interessantes e relevantes, considerando que o ano atual é {current_year}",
+
+//             // Clear definition of what the output should look like
+//             "expected_output": "Uma lista com 10 tópicos em formato de bullet points contendo as informações mais relevantes sobre {topic}",
+
+//             // Optional task guardrail(s) validate output before completion
+//             // Use "guardrail" for one rule or "guardrails" for many
+//             // Failed guardrails retry up to guardrail_max_retries times
+//             // "guardrail": "Every factual claim needs context support.",
+//             // "guardrails": [
+//             //   "Every factual claim must be supported by context.",
+//             //   "The answer must match the expected output format."
+//             // ],
+//             // "guardrail_max_retries": 2,
+
+//             // Advanced task options:
+//             // Docs: https://docs.crewai.com/concepts/tasks
+//             // "type": "ConditionalTask",
+//             // "condition": { "python": "my_project.conditions.should_run" },
+//             // "output_json": { "python": "my_project.models.ReportOutput" },
+//             // "output_pydantic": null,
+//             // "response_model": null,
+//             // "converter_cls": { "python": "my_project.converters.CustomConverter" },
+//             // "markdown": false,
+//             // "input_files": { "brief": "data/brief.txt" },
+//             // "security_config": {},
+
+//             // Which agent handles this task
+//             "agent": "researcher"
+
+//             // "tools": [],
+//             // "human_input": false,
+//             // "async_execution": false
+//             },
+//             {
+//                     // Task identifier
+//             "name": "reporting_task",
+
+//             // What the task should accomplish
+//             // Use {placeholder} inputs here; crewai run prompts for missing values
+//             "description": "Revise o contexto recebido e expanda cada tópico em uma seção completa para um relatório. Certifique-se de que o relatório seja detalhado e contenha todas as informações relevantes.",
+
+//             // Clear definition of what the output should look like
+//             "expected_output": "Um relatório completo com os principais tópicos, cada um desenvolvido de forma informativa. Formatado em markdown, sem utilizar '```'",
+
+//             // Optional task guardrail(s) validate output before completion
+//             // Use "guardrail" for one rule or "guardrails" for many
+//             // Failed guardrails retry up to guardrail_max_retries times
+//             // "guardrail": "Every factual claim needs context support.",
+//             // "guardrails": [
+//             //   "Every factual claim must be supported by context.",
+//             //   "The answer must match the expected output format."
+//             // ],
+//             // "guardrail_max_retries": 2,
+
+//             // Advanced task options:
+//             // Docs: https://docs.crewai.com/concepts/tasks
+//             // "type": "ConditionalTask",
+//             // "condition": { "python": "my_project.conditions.should_run" },
+//             // "output_json": { "python": "my_project.models.ReportOutput" },
+//             // "output_pydantic": null,
+//             // "response_model": null,
+//             // "converter_cls": { "python": "my_project.converters.CustomConverter" },
+//             // "markdown": false,
+//             // "input_files": { "brief": "data/brief.txt" },
+//             // "security_config": {},
+
+//             // Which agent handles this task
+//             "agent": "reporting_analyst"
+
+//             // "tools": [],
+//             // "human_input": false,
+//             // "async_execution": false
+//         }
+//     ]
+// }
